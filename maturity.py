@@ -1,0 +1,5 @@
+p = float(input("enter the principle value : "))
+n = float(input("enter the no of years : "))
+r = float(input("enter the rate : "))
+maturity = p * ((1 + r/100) ** n)
+print("the maturity calculated is ", maturity)
